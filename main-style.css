@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat.zip);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/roboto.zip);
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(/fonts/Roboto_Mono.zip);
+}
+@font-face {
+    font-family: "San Francisco Mono";
+    src: url(/fonts/San\ Francisco\ Mono.zip);
+}
+body{
+    margin: 0;
+    color:#212529;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+    background: linear-gradient(-45deg,  #ed193b, #a98055, #f286e2, #681d7a);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+ 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.logo{
+        width: 50px;
+    }
+header{
+    font-family:"Roboto";
+    font-size: 0.8em;
+}
+h1,h2,h3{
+text-align: left;
+padding: 6px, 10px;
+font-family: "Monstserrat";
+}
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1em;
+}
+.morebloks{
+    columns: 3;
+    height: 1180px;
+    width: 1640px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.blok{
+    font-family:"Roboto";
+    font-weight: normal;
+    margin-left: 10px;
+    font-size: 1em;
+    background-image: repeating-linear-gradient(#c3b091,#91bdc3,#c391a4 );
+    border-radius: 24px;
+    height: 580px;
+    width: 530px;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover {
+    color: green;
+}
+
+.blok:hover {
+    box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2);
+}
+
+.img1  {
+    text-align: center;
+    width: 116px;
+    height: 116px;
+}
+
+.niz {
+    text-align: right;
+    font-size: 0.7rem;
+}
+
+.kartinka {
+    text-align: center;
+}
+.hut{
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.buton{
+    background-color: #e9e768;}
+    .logo2{
+        text-align: center;
+        width: 20px;
+        height: 20px;
+    }
